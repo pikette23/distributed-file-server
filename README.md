@@ -18,7 +18,9 @@ El objetivo es permitir operaciones básicas sobre archivos y directorios distri
 
 ### 2. Lanzar los fileServers:
 ./fileServer1 /home/robert/ruta1 10000
+
 ./fileServer1 /home/robert/ruta2 10001
+
 ./fileServer1 /home/robert/ruta3 10002
 
 ### 3. Lanzar el servidor distribuido:
