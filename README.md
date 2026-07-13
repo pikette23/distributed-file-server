@@ -38,17 +38,26 @@ getFileList <RutaCompleta>
 ## 📸 Ejemplos de funcionamiento
 ### Crear un directorio:
 Cliente:
+
 cliente> addDir /home/robert/ruta1/d1
+
 Resultado: 0
+
 FileServer responde:
+
 Orden recibida: addDir d1
 
 ### Subir y recuperar un archivo
 cliente> addFile /home/robert/ruta1/d1/a.txt
+
 Resultado: 0
+
 Descarga:
+
 cliente> getFile /home/robert/ruta1/d1/a.txt
+
 Resultado: 0
+
 Contenido del archivo (5 bytes): hola!
 
 
